@@ -125,7 +125,6 @@ object Applicative {
 trait ApplicativeLaws[F[_]] {
 
   import IsEq._
-  import Applicative.ops._
 
   implicit def F: Applicative[F]
 

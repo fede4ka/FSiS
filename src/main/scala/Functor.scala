@@ -96,7 +96,6 @@ object Functor {
 // Laws that a Functor's #map must obey
 trait FunctorLaws[F[_]] {
 
-  import Functor.ops._
   import IsEq._
 
   implicit def F: Functor[F]
